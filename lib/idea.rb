@@ -1,3 +1,3 @@
 for i in 0..10
-  puts i
+  puts %(#{i + 1})
 end
