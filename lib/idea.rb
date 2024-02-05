@@ -1,4 +1,5 @@
-puts %(hello world!)
+puts %(Hello world!)
 
+langs = %w(Ruby Python Javascript C# Java)
 
-puts %(This line was added in the main branch)
+langs.each { |lang| puts lang }
